@@ -1,0 +1,22 @@
+{
+  "name": "dummy-npm-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preversion": "npm test",
+    "version": "git add .",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larswaechter/dummy-npm-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larswaechter/dummy-npm-test/issues"
+  },
+  "homepage": "https://github.com/larswaechter/dummy-npm-test#readme"
+}
